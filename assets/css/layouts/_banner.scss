@@ -1,0 +1,33 @@
+.banner-area {
+    height: 100vh;
+    .banner-content {
+        h1 {
+            font-size: 70px;
+            color: #fff;
+            text-transform: capitalize;
+            font-weight: 700;
+            line-height: 100px;
+        }
+        h4 {
+            color: #fff;
+            text-transform: capitalize;
+            font-size: 25px;
+        }
+        a {
+            display: inline-block;
+            background-color: teal;
+            color: #fff;
+            padding: 10px 27px;
+            font-size: 20px;
+            text-transform: capitalize;
+            line-height: 30px;
+            border-radius: 6px;
+            margin-top: 20px;
+            margin-left: 20px;
+            &:hover {
+                background-color: tomato;
+                color: #fff;
+            }
+        }
+    }
+}

@@ -1,0 +1,51 @@
+.price-area {
+    background-color: gray;
+    .single-price {
+        text-align: center;
+        background-color: #fff;
+        padding: 40px 40px;
+        &.active {
+            border: 3px solid tomato;
+            display: block;        
+        }
+        span {
+            text-transform: uppercase;
+            display: block;
+            font-size: 22px;
+            font-weight: 700;
+        }
+        h4 {
+            font-size: 40px;
+            margin: 40px 0;
+            font-weight: 800;
+        }
+        ul {
+            margin-bottom: 30px;
+            li {
+                border-bottom: 1px solid #f2f2f2;
+                padding-bottom: 10px;
+                margin-bottom: 15px;
+                font-size: 17px;
+
+                &:last-child{
+                    border-bottom: 0;
+                    margin-bottom: 0;
+                    padding-bottom: 0;
+                }
+            }
+        }
+        a {
+            text-decoration: none;
+            text-transform: capitalize;
+            font-size: 18px;
+            padding: 10px 20px;
+            border-radius: 6px;
+            background-color: teal;
+            color: aliceblue;
+            &:hover { 
+                background-color: tomato;
+                color: aliceblue;
+            }
+        }
+    }
+}
